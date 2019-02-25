@@ -39,13 +39,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 957.0, 375.33331298828125, 50.0, 22.0 ],
+					"text" : "loop 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 960.0, 302.0, 44.0, 22.0 ],
+					"text" : "decide"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-167",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 966.0, 346.0, 55.0, 22.0 ],
-					"text" : "startloop"
+					"patching_rect" : [ 974.33343505859375, 335.95452880859375, 48.0, 22.0 ],
+					"text" : "loop $1"
 				}
 
 			}
@@ -83,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1215.6666259765625, 1130.5, 150.0, 33.0 ],
+					"patching_rect" : [ 1215.6666259765625, 1130.5, 151.0, 33.0 ],
 					"text" : "set file name and save file for recording"
 				}
 
@@ -102,7 +126,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1237.6666259765625, 986.0, 128.0, 46.0 ],
-					"presentation_linecount" : 2,
 					"prototypename" : "popupC",
 					"text" : "Press here to start recording",
 					"textcolor" : [ 0.462745100259781, 0.180392161011696, 0.180392161011696, 1.0 ]
@@ -208,8 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.833282470703125, 184.0, 123.636360168457031, 20.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 330.833282470703125, 184.0, 124.0, 20.0 ],
 					"text" : "preload sound track 3"
 				}
 
@@ -228,7 +250,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1320.6666259765625, 227.666778564453125, 128.0, 64.0 ],
-					"presentation_linecount" : 3,
 					"prototypename" : "popupC",
 					"text" : "Press here to restart time (auto-start)",
 					"textcolor" : [ 0.462745100259781, 0.180392161011696, 0.180392161011696, 1.0 ]
@@ -248,8 +269,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 951.0001220703125, 234.66668701171875, 113.363639831542969, 46.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 951.0001220703125, 234.66668701171875, 114.0, 46.0 ],
 					"prototypename" : "popupC",
 					"text" : "Press here to make rain",
 					"textcolor" : [ 0.462745100259781, 0.180392161011696, 0.180392161011696, 1.0 ]
@@ -270,7 +290,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 583.66668701171875, 234.66668701171875, 128.0, 46.0 ],
-					"presentation_linecount" : 2,
 					"prototypename" : "popupC",
 					"text" : "Press here to add beats",
 					"textcolor" : [ 0.462745100259781, 0.180392161011696, 0.180392161011696, 1.0 ]
@@ -745,13 +764,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-204",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1657.666748046875, 601.66656494140625, 80.0, 35.0 ],
-					"text" : "seek 3200 4000"
+					"patching_rect" : [ 1657.666748046875, 601.66656494140625, 80.0, 22.0 ],
+					"text" : "0 0 90000"
 				}
 
 			}
@@ -824,7 +842,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 11795.504761904761835, "ticks" ],
+						"originallength" : [ 209912.663945578242419, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -987,7 +1005,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1751.0001220703125, 369.33331298828125, 127.0, 76.0 ],
-					"text" : "\"Macintosh HD:/Users/kiki1/Desktop/MAX_Puzzles2/samples/countdown.wav\""
+					"text" : "\"Macintosh HD:/Users/kiki1/Desktop/MAX_Puzzles2/samples/Girl_With_One_Eye.aiff\""
 				}
 
 			}
@@ -1482,7 +1500,7 @@
 						}
 , 						{
 							"number" : 5,
-							"data" : [ 5, "obj-90", "number", "int", 2, 5, "obj-94", "flonum", "float", 2.0, 5, "obj-5", "toggle", "int", 0, 5, "obj-35", "number", "int", 13, 5, "obj-53", "number", "int", 1, 5, "obj-55", "number", "int", 3, 6, "obj-115", "number~", "list", 0.0, 0.0, 5, "obj-126", "flonum", "float", 0.175500005483627, 5, "obj-14", "number", "int", 500, 5, "obj-21", "flonum", "float", 2.0, 5, "obj-25", "toggle", "int", 0, 5, "obj-68", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 2000.0, 5, "obj-59", "toggle", "int", 1, 5, "obj-103", "flonum", "float", 1.0, 5, "obj-105", "flonum", "float", 3000.0, 5, "obj-77", "flonum", "float", 0.0, 6, "obj-78", "number~", "list", 0.0, 0.0 ]
+							"data" : [ 5, "obj-90", "number", "int", 2, 5, "obj-94", "flonum", "float", 2.0, 5, "obj-5", "toggle", "int", 0, 5, "obj-35", "number", "int", 13, 5, "obj-53", "number", "int", 1, 5, "obj-55", "number", "int", 3, 6, "obj-115", "number~", "list", 0.0, 0.0, 5, "obj-126", "flonum", "float", 0.175500005483627, 5, "obj-14", "number", "int", 500, 5, "obj-21", "flonum", "float", 2.0, 5, "obj-25", "toggle", "int", 0, 5, "obj-68", "flonum", "float", 0.0, 5, "obj-15", "flonum", "float", 2000.0, 5, "obj-59", "toggle", "int", 1, 5, "obj-103", "flonum", "float", 1.0, 5, "obj-105", "flonum", "float", 3000.0, 5, "obj-77", "flonum", "float", 0.0, 6, "obj-78", "number~", "list", 0.0, 0.0, 5, "obj-108", "umenu", "int", 1, 5, "obj-121", "number", "int", 1, 5, "obj-124", "toggle", "int", 0, 5, "obj-208", "number", "int", 0, 5, "obj-209", "number", "int", 90000, 5, "obj-236", "flonum", "float", 0.0, 5, "obj-238", "number", "int", 1, 5, "obj-12", "toggle", "int", 0, 6, "obj-38", "number~", "list", 0.0, 0.0, 5, "obj-106", "flonum", "float", 0.5, 5, "obj-113", "flonum", "float", 6000.0, 5, "obj-120", "flonum", "float", 0.5, 5, "obj-123", "flonum", "float", 2000.0, 5, "obj-128", "flonum", "float", 0.050000000745058, 5, "obj-133", "flonum", "float", 6000.0, 5, "obj-164", "number", "int", 16, 5, "obj-168", "number", "int", 2, 5, "obj-181", "toggle", "int", 0, 5, "obj-186", "toggle", "int", 0, 5, "obj-45", "number", "int", 163235, 5, "obj-47", "number", "int", 22, 5, "obj-49", "number", "int", 22, 5, "obj-92", "toggle", "int", 0, 6, "obj-154", "number~", "list", 0.0, 0.0, 5, "<invalid>", "toggle", "int", 1 ]
 						}
 , 						{
 							"number" : 6,
@@ -2068,7 +2086,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.666603088378906, 155.833328247070312, 78.0, 23.0 ],
-					"save" : [ "#N", "sflist~", "guitar", 483840, ";", "#X", "preload", 2, "A.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 3, "B.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 4, "C.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 5, "D.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 6, "E.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 7, "F.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "preload", 8, "G.aiff", 0.0, 0.0, 0, 1.0, ";", "#X", "embed", 1, ";" ],
+					"save" : [ "#N", "sflist~", "guitar", 483840, ";", "#X", "embed", 1, ";" ],
 					"text" : "sflist~ guitar"
 				}
 
@@ -2698,6 +2716,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-167", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 1 ],
+					"order" : 1,
 					"source" : [ "obj-167", 0 ]
 				}
 
@@ -3132,7 +3159,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-167", 0 ],
+					"destination" : [ "obj-79", 0 ],
 					"order" : 1,
 					"source" : [ "obj-59", 0 ]
 				}
@@ -3247,6 +3274,13 @@
 					"destination" : [ "obj-54", 1 ],
 					"midpoints" : [ 1057.163330078125, 669.0, 1047.0, 669.0, 1047.0, 681.0, 1046.83343505859375, 681.0 ],
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-167", 0 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
